@@ -14,10 +14,7 @@
 
 - **Show All Role IDs**:
   - List all TeamSpeak server group IDs and their names with `!showallids`.
-
-- **Verification**:
-  - Ensures only authorized users can sync their roles.
-
+    
 ---
 
 ## Commands
