@@ -87,7 +87,7 @@ Before starting the bot, you need to make sure your TeamSpeak and Discord config
 
 If you haven't done so already, install the required dependencies for the bot:
 
-`bash
+`
 pip install discord.py
 pip install ts3 `
 
