@@ -14,7 +14,7 @@
 
 - **Show All Role IDs**:
   - List all TeamSpeak server group IDs and their names with `!showallids`.
-    
+
 ---
 
 ## Commands
@@ -23,7 +23,8 @@
 
 - **`!sync <ts_uid>`**  
   Sync your Discord roles with TeamSpeak server groups.  
-  Example: `!sync C5zwKldBeHQc3DP4F4JGkuaFSvk=`
+  Example: `!sync C5zwKldBeHQc3DP4F4JGkuaFSvk=`  
+  **Note**: `ts_uid` is the TeamSpeak user’s unique identifier.
 
 ### Admin Commands
 
