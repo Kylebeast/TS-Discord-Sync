@@ -25,15 +25,15 @@
   Sync your Discord roles with TeamSpeak server groups.  
   Example: `!sync C5zwKldBeHQc3DP4F4JGkuaFSvk=`
 
-- **`!checkuser <ts_uid>`**  
-  View the roles of a TeamSpeak user by their UID.  
-  Example: `!checkuser C5zwKldBeHQc3DP4F4JGkuaFSvk=`
-
 ### Admin Commands
 
 - **`!user <ts_uid> <add/remove> <group_id>`**  
   Add or remove a TeamSpeak role for a user.  
   Example: `!user C5zwKldBeHQc3DP4F4JGkuaFSvk= add 9`
+
+- **`!checkuser <ts_uid>`**  
+  View the roles of a TeamSpeak user by their UID.  
+  Example: `!checkuser C5zwKldBeHQc3DP4F4JGkuaFSvk=`
 
 - **`!showallids`**  
   Show all TeamSpeak role IDs and their corresponding names.  
