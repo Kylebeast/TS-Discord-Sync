@@ -59,9 +59,32 @@
 
 ---
 
-## Setup
+## Getting Started
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/teamspeak-discord-sync-bot.git
-   cd teamspeak-discord-sync-bot
+To get your TeamSpeak-Discord Sync Bot up and running, follow these steps:
+
+### 1. **Set Up Configuration**
+
+Before starting the bot, you need to make sure your TeamSpeak and Discord configurations are correct:
+
+1. **Open the `ts3_discord_sync.py` file** in a code editor.
+2. **Set your TeamSpeak server information**:
+   - `ts3_server_ip`: Replace this with the IP address of your TeamSpeak server.
+   - `ts3_username` and `ts3_password`: Provide your TeamSpeak Query login credentials.
+   - `ts3_virtual_server_id`: Ensure this is the correct virtual server ID in your TeamSpeak server.
+
+3. **Set your Discord Bot information**:
+   - Replace the placeholder for `discord_token` with your Discord bot's token.
+   
+4. **Set the admin role ID**:
+   - Update `admin_role_id` with the correct Discord role ID that grants admin permissions to users for admin commands.
+
+5. **Map your Discord roles to TeamSpeak groups**:
+   - Update the `role_mapping` dictionary with the correct mapping of Discord role IDs to TeamSpeak server group IDs.
+
+### 2. **Install Dependencies**
+
+If you haven't done so already, install the required dependencies for the bot:
+
+```bash
+pip install -r requirements.txt
