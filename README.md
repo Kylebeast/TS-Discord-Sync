@@ -90,3 +90,11 @@ If you haven't done so already, install the required dependencies for the bot:
 ```bash
 pip install discord.py
 pip install ts3
+
+
+### 3. **Run the Bot**
+
+Once you've set up the configurations and installed the dependencies, you can run the bot using the following command:
+
+```bash
+python ts3_discord_sync.py
