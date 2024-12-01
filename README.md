@@ -89,7 +89,7 @@ If you haven't done so already, install the required dependencies for the bot:
 
 ```bash
 pip install discord.py
-pip install ts3
+pip install ts3 
 
 
 ### 3. **Run the Bot**
